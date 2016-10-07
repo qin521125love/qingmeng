@@ -1,0 +1,29 @@
+body{
+	font-family: "微软雅黑";
+	padding-top: 60px;
+}
+.page-header{
+	margin-top:0;
+}
+.page-header h1{
+	margin:0;
+	font-size:16px;
+}
+.wh64{
+	width:64px;
+	height:64px;
+	border-radius: 50%;
+}
+.mar_t15{
+	margin-top: 15px;
+}
+.active_search,.activity{
+	padding:10px;
+	border:solid 1px #ddd;
+	border-top:none;
+}
+footer{
+	font-weight:400;
+	text-align:center;
+	padding:20px;
+}

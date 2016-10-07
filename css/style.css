@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding-top:50px;
+	 padding-bottom:20px;
+	 background:#f7f7f7;
+	 position:relative;
+}
+.topcol{
+	background-color: rgba(60,180,127,0.8);
+}
+.carousel{
+	 height:500px;
+	 background-color:#8ddcb6;
+	 margin-bottom:20px;
+ }
+ .carousel .item{
+	 height:500px;
+	 background-color:#8ddcb6;
+ }
+ .carousel .item img{
+	width:100%;
+ }
+ .carousel-caption p{
+	 margin-bottom:20px;
+	 font-size:20px;
+	 line-height:1.8;
+ }
+
+.col-md-4 {
+	height:400px;
+	background:#f7f7f7;
+}
+.lunar{
+
+}
+.bi{
+	padding-top:40px;
+	border-left:0.1em solid #ccc;
+}
+.ten{
+	background: url(../images/top.jpg);
+	height: 400px;
+}
+.font02{
+	font-family:"黑体";
+	font-size:1.5em;
+	color:#000;
+}
+.font03{
+	text-align:center;
+	color:#0CC;
+	font-size:3em;
+}
+.font04{
+	font-family:"宋体";
+	font-size:2em;
+	color:#F63;
+	margin:5% 15%;
+}
+.font05{
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:1em;
+	color:#FF8040;
+	margin-left:15%;
+}
+.rowback {
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+.three{	
+	margin:0px;
+	padding:0px;
+	border:0px;
+	margin-top:-20px;
+}
+.com{
+	list-style-image:url(../images/727.gif);
+}
+
+.com li a{
+	color:#008040;
+	font-family:"黑体";
+	font-size:1.3em;
+	text-decoration:none;
+}
+hr .divider{
+	 margin:30px 0px;
+ }
+.feature{
+	 padding:30px 0;
+ }
+ .zhao_yao{
+ 	background: url(../images/20.jpg);
+ 	height: 300px;
+ }
+ .time{
+ 	background: #c3cfc1;
+ 	height: 300px;
+ }
+ .tou_yao{
+ 	background: url(../images/21.jpg);
+ 	height: 300px;
+ }
+ .view{
+	 height:300px;
+	 width:100%;
+	 background:#c3cfc1;
+ }
+ .introduce{
+	 height:300px;
+	 background:url(../images/22.gif);
+	 width:100%;
+ }
+ .foot{
+	 height:300px;
+	 background-color:#d0efcf;
+ }
+ .corp {
+	 width:40%;
+	 margin-left:15%;
+	 margin-top:-2%;
+	 height:50px;
+	 border-top:0.1em dashed #999999;
+	 border-bottom:0.1em dashed #999999;
+ }
+.corp2 {
+	 width:40%;
+	 margin-left:15%;
+	 margin-top:8%;
+	 height:50px;
+	 border-top:0.1em dashed #999999;
+	 border-bottom:0.1em dashed #999999;
+ }
+#tell { width:140px;
+		height:300px;
+		background:#96C;
+		position:fixed;
+		top:120px;
+		left:-140px;
+		z-index: 2;
+}
+ #tell span { width:40px;
+			height:100px;
+			background:rgb(112,183,139);
+			line-height:20px;
+			padding: 18px 0;
+			border-radius:0px 7px 7px 0px;
+			text-align:center;
+			font-size:1.2em;
+			color: #fff;
+			font-family: "幼圆";
+			position:absolute;
+			top:110px;
+			right: -40px;
+			z-index: 2;
+}

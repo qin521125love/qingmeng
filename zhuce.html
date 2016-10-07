@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>注册-青盟</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/zhuce.css">
+</head>
+<body id="body">
+  <div class="beijing">
+
+	<nav class="navbar navbar-default navbar-fixed-top topcol" role="navigation">
+      <div class="container">
+      	<div class="navbar-header">
+        <!--collapse代表折叠 导航可折叠  -->
+           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#demo-navbar">
+           <span class="sr-only">Toggle navigation</span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           </button>
+           <a class="navbar-brand" href="#">青盟欢迎你</a>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="demo-navbar">
+          <ul class="nav navbar-nav">
+          	<li><a href="#">社团招标</a></li>
+            <li><a href="#">青盟活动</a></li>
+            <li><a href="#">青盟视讯</a></li>
+          </ul>
+          <form class="navbar-form navbar-right" role="search">
+          <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+          <a href="#" target="_blank" type="button" class="btn btn-primary">登录</a>
+          <a href="zhuce.html" target="_blank" type="button" class="btn btn-success">注册</a>
+       </form>
+        </div>
+      </div>
+    </nav>
+    <div class="divider">
+    <div class="container">
+    	<div class="row">
+        	<div class="col-md-5"></div>
+             <div class="col-md-6">
+            	 <div class="row green rowback">
+               	    <div class="col-md-12">
+                <p>欢迎注册青盟网！请您根据实际情况进行注册登录！</p>
+                	</div>
+                </div>
+               <div class="row rowback">
+                	<div class="col-md-12">
+                 	<ul class="nav nav-tabs bac nav-justified" role="tablist" style="width:102.5%;" id="tab-list1">
+          					 <li class="active"><a href="#tab-qiye" role="tab" data-toggle="tab">企业注册</a></li>
+	                         <li><a href="#tab-shetuan" role="tab" data-toggle="tab">社团注册</a></li>
+                             <li><a href="#tab-self" role="tab" data-toggle="tab">个人注册</a></li>
+        </ul>
+             <div class="tab-content">
+ 			 <div class="tab-pane active" id="tab-qiye">    		
+            	 <section>
+    	<form action="" method="post" id="form1">
+        	<div class="clearfix">
+            <input type="text" tabindex="1" id="name" class="item-name" placeholder="企业名称" autofocus required/>
+            </div>
+            <div class="clearfix">
+            <input type="email" tabindex="2" id="email" class="item-email" placeholder="电子邮箱" autofocus required/>
+            </div>
+            <div class="clearfix">
+            <input type="password" tabindex="3" id="password" class="item-password" placeholder="1-16位字符" oninput="customvalid(this)" autofocus required/>
+            </div>
+             <div class="clearfix">
+            <input type="psw" tabindex="4" id="psw" class="item-psw" placeholder="确认密码" autofocus required/>
+            </div>
+            <div class="clearfix">
+            <input type="submit" tabindex="5" id="submit" value="注   册"/>
+            </div>
+           
+        </form>
+    </section>
+    		</div>
+            <div class="tab-pane" id="tab-shetuan">
+            	    <section>
+    	<form action="" method="post" id="form2">
+        	<div class="clearfix">
+            <input type="text" tabindex="1" id="schoolname" class="item-schoolname" placeholder="学校名称" autofocus required/>
+            </div>
+            <div class="clearfix">
+            <input type="text" tabindex="2" id="shename" class="item-shename" placeholder="社团名称" autofocus required/>
+            </div>
+            <div class="clearfix">
+            <input type="text" tabindex="3" id="name" class="item-name" placeholder="联系人姓名" autofocus required/>
+            </div>
+            <div class="clearfix">
+            <input type="tel" tabindex="4" id="phone" class="item-phone" placeholder="联系方式" autofocus required/>
+            </div>
+             <div class="clearfix">
+            <input type="email" tabindex="5" id="email" class="item-email" placeholder="电子邮箱" autofocus required/>
+            </div>
+            <div class="clearfix">
+            <input type="password" tabindex="6" id="password" class="item-password" placeholder="密码" autofocus required/>
+            </div>
+            <div class="clearfix">
+            <input type="submit" tabindex="7" id="submit" value="注   册"/>
+            </div>
+        </form>
+    </section>
+                    </div>
+                     <div class="tab-pane" id="tab-self">
+            	<section>
+    	<form action="" method="post" id="form3">
+        	<div class="clearfix">
+            <input type="text" tabindex="1" id="name" class="item-name" placeholder="姓名" autofocus required/>
+            </div>
+            <div class="clearfix">
+            <input type="tel" tabindex="2" id="phone" class="item-phone" placeholder="联系方式" autofocus required/>
+            </div>
+             <div class="clearfix">
+            <input type="email" tabindex="3" id="email" class="item-email" placeholder="电子邮箱" autofocus required/>
+            </div>
+            <div class="clearfix">
+            <input type="password" tabindex="4" id="password" class="item-password" placeholder="密码" autofocus required/>
+            </div>
+             <div class="clearfix">
+            <input type="psw" tabindex="5" id="psw" class="item-psw" placeholder="确认密码" autofocus required/>
+            </div>
+            <div class="clearfix">
+            <input type="submit" tabindex="6" id="submit" value="注   册"/>
+            </div>
+        </form>
+    </section>
+					</div>
+					</div>
+                    </div>
+                </div> 
+            </div> 
+            <div class="col-md-1"></div>
+        </div>
+        <div class="row bottom">
+        	<div class="col-md-12" style="text-align:center;">
+        <!--    	<a href="#">关于青盟</a>&nbsp;&nbsp;<a href="#">版权所有</a>&nbsp;&nbsp;<a href="#">隐私政策</a> -->
+            </div>
+        </div>
+    </div>
+  
+
+    </div>
+    <script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="js/modernizr-custom.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

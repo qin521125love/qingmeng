@@ -1,0 +1,112 @@
+#body{
+	background:url(../images/趁青春.gif) no-repeat;
+}
+.navbar-default{
+	background:rgba(180,180,180,0.5) ;
+	border: none;
+	box-shadow: 0px 2px 8px 0px rgba(50,50,50,0.25);
+}
+.navbar-default .navbar-nav>li>a {
+	font-family:幼圆;
+	font-size: 1.2em;
+	color: #fff;
+	height: 40px;
+	line-height: 20px;
+}
+.navbar-default .navbar-nav>li>a>span{
+	height: 40px;
+	line-height: 20px;
+	padding-left: 10px;
+}
+.navbar-toggle{
+	margin-top: 17px;
+}
+.navbar-default .navbar-toggle:hover {
+	border-color:  #79AD6A;
+	background-color: #79AD6A;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color:  #7B987F;
+}
+
+.img-left,.img-right{
+	padding: 0;
+	margin:0;
+}
+#personal .all .left1{
+	width:50%;
+	height:633px;
+    background: rgba(189,219,193,0.8);
+    float:left;
+}
+#personal .all .right1{
+	width:50%;
+	height:633px;
+    background: rgba(113,165,143,0.7);
+    float:right;
+}
+#personal .all .left1 .qd1{
+	width:130px;
+	height:100px;
+	float:right;
+	margin-right:0;
+	margin-top:100px;
+}
+#personal .all .right1 .qd4{
+	width:130px;
+	height:100px;
+	margin-left:0;
+	margin-top:100px;
+}
+#personal .all .left1 .qd2{
+	width:130px;
+	height:30px;
+	margin-right:0;
+	float:right;
+	margin-top:130px;
+	clear: both;
+}
+#personal .all .left1 .qd3{
+	width:130px;
+	height:30px;
+	margin-right:0;
+	float:right;
+	margin-top:30px;
+	clear:both;
+}
+#personal .all .right1 .qd5{
+	width:130px;
+	height:30px;
+	margin-top:100px;
+	margin-left:0;
+}
+#personal .all .right1 .qd6{
+	width:130px;
+	height:30px;
+	margin-top:30px;
+	margin-left:0;
+
+}
+#personal .input1{
+	width:200px;
+	height:30px;
+	border-radius:15px 0 0 15px;
+	display: inline-block;
+	background: url(../images/img_02.gif) no-repeat #fff;
+	background-position:3px center;
+	float:right;
+	clear:both;
+	margin-top: 30px;
+	padding-left: 35px;
+}
+#personal .input2{
+	width:80px;
+	height:30px;
+	display: inline-block;
+	border-radius:0 15px 15px 0;
+	margin-top: 60px;
+	background: url(../images/go2.jpg) no-repeat rgb(96,147,116);
+	background-position: center center;
+	background-size:contain ;
+	border:none;
+}

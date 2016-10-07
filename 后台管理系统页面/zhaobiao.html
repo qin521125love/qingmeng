@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>后台管理系统</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/bootstrap-manage.css"/>
+	<link rel="stylesheet" href="css/animate.css"/>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<!--小屏幕导航按钮-->
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+
+			<a href="index.html" class="navbar-brand">后台管理系统</a>
+		</div>
+		<!--导航-->
+		<div class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+				<li><a href="index.html"><span class="glyphicon glyphicon-home"></span>&nbsp&nbsp首页</a></li>
+				<li><a href="activity.html"><span class="glyphicon glyphicon-star"></span>&nbsp&nbsp青盟活动</a></li>
+				<li><a href="orgzations.html"><span class="glyphicon glyphicon-user"></span>&nbsp&nbsp社团招标</a></li>
+				<li><a href="manage.html"><span class="glyphicon glyphicon-th-large"></span>&nbsp&nbsp投标管理</a></li>
+				<li><a href="top10.html"><span class="glyphicon glyphicon-th"></span>&nbsp&nbspTOP10管理</a></li>
+				<li><a href="fuli.html"><span class="glyphicon glyphicon-th-list"></span>&nbsp&nbsp公益活动</a></li>
+				<li class="active"><a href="zhaobiao.html"><span class="glyphicon glyphicon-file"></span>&nbsp&nbsp招标投标</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown">
+					<a id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						管理员
+						<span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="dLabel">
+						<li><a href="#">前台首页</a></li>
+						<li><a href="#">个人设置</a></li>
+						<li><a href="#">个人主页</a></li>
+						<li><a href="#">账户中心</a></li>
+						<li><a href="#">我的收藏</a></li>
+					</ul>
+				</li>
+				<li><a href="#"><span class="glyphicon glyphicon-home"></span>&nbsp&nbsp退出</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class="container">
+	<div class="row">
+		<div class="col-md-2">
+			<div class="list-group">
+				<a href="zhaobiao.html" class="list-group-item active">招标审核</a>
+				<a href="toubiao.html" class="list-group-item">投标审核</a>
+			</div>
+		</div>
+		<div class="col-md-10">
+			<div class="page-header">
+				<h1>招标投标</h1>
+			</div>
+			<ul class="nav nav-tabs">
+				<li class="active">
+					<a href="zhaobiao.html">招标列表</a>
+				</li>
+				<li>
+					<a href="toubiao.html">投标列表</a>
+				</li>
+			</ul>
+			<table class="table activity">
+				<thead>
+				<tr>
+					<th>编号</th>
+					<th>招标名</th>
+					<th>发起组织</th>
+					<th>操作</th>
+				</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<th scope="row">1</th>
+					<td>张三</td>
+					<td>青盟社团</td>
+					<td><div role="presentation" class="dropdown">
+						<button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+							操作 <span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li><a href="#">同意</a></li>
+							<li><a href="#">不同意</a></li>
+						</ul>
+					</div></td>
+				</tr>
+				<tr>
+					<th scope="row">1</th>
+					<td>张三</td>
+					<td>青盟社团</td>
+					<td><div role="presentation" class="dropdown">
+						<button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+							操作 <span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li><a href="#">同意</a></li>
+							<li><a href="#">不同意</a></li>
+						</ul>
+					</div></td>
+				</tr>
+				<tr>
+					<th scope="row">1</th>
+					<td>张三</td>
+					<td>青盟社团</td>
+					<td><div role="presentation" class="dropdown">
+						<button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+							操作 <span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li><a href="#">同意</a></li>
+							<li><a href="#">不同意</a></li>
+						</ul>
+					</div></td>
+				</tr>
+				<tr>
+					<th scope="row">1</th>
+					<td>张三</td>
+					<td>青盟社团</td>
+					<td><div role="presentation" class="dropdown">
+						<button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+							操作 <span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li><a href="#">同意</a></li>
+							<li><a href="#">不同意</a></li>
+						</ul>
+					</div></td>
+				</tr>
+				<tr>
+					<th scope="row">1</th>
+					<td>张三</td>
+					<td>青盟社团</td>
+					<td><div role="presentation" class="dropdown">
+						<button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+							操作 <span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li><a href="#">同意</a></li>
+							<li><a href="#">不同意</a></li>
+						</ul>
+					</div></td>
+				</tr>
+				<tr>
+					<th scope="row">1</th>
+					<td>张三</td>
+					<td>青盟社团</td>
+					<td><div role="presentation" class="dropdown">
+						<button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+							操作 <span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li><a href="#">同意</a></li>
+							<li><a href="#">不同意</a></li>
+						</ul>
+					</div></td>
+				</tr>
+				</tbody>
+			</table>
+			<nav class="pull-right">
+				<ul class="pagination">
+					<li>
+						<a href="#" aria-label="Previous">
+							<span aria-hidden="true">&laquo;</span>
+						</a>
+					</li>
+					<li class="active"><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+					<li>
+						<a href="#" aria-label="Next">
+							<span aria-hidden="true">&raquo;</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h6>版权所有</h6>
+				<h6>如有需要，请联系版主</h6>
+			</div>
+		</div>
+	</div>
+</footer>
+<script type="application/javascript" src="js/jquery.min.js"></script>
+<script type="application/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>

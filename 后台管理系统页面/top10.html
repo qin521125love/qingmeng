@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>后台管理系统</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.min.css"/>
+    	<link rel="stylesheet" href="css/bootstrap-manage.css"/>
+    	<link rel="stylesheet" href="css/animate.css"/>
+	</head>
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+        <!--小屏幕导航按钮-->
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+        <a href="index.html" class="navbar-brand">后台管理系统</a>
+        </div>
+        <!--导航-->
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html"><span class="glyphicon glyphicon-home"></span>&nbsp&nbsp首页</a></li>
+                <li><a href="activity.html"><span class="glyphicon glyphicon-star"></span>&nbsp&nbsp青盟活动</a></li>
+                <li><a href="orgzations.html"><span class="glyphicon glyphicon-user"></span>&nbsp&nbsp社团招标</a></li>
+                <li><a href="manage.html"><span class="glyphicon glyphicon-th-large"></span>&nbsp&nbsp投标管理</a></li>
+                <li class="active"><a href="top10.html"><span class="glyphicon glyphicon-th"></span>&nbsp&nbspTOP10管理</a></li>
+                <li><a href="fuli.html"><span class="glyphicon glyphicon-th-list"></span>&nbsp&nbsp公益活动</a></li>
+                <li><a href="zhaobiao.html"><span class="glyphicon glyphicon-file"></span>&nbsp&nbsp招标投标</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+            	<li class="dropdown">
+	            	<a id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		            	管理员
+		            	<span class="caret"></span>
+	            	</a>
+	            	<ul class="dropdown-menu" aria-labelledby="dLabel">
+	            		<li><a href="#">前台首页</a></li>
+	            		<li><a href="#">个人设置</a></li>
+	            		<li><a href="#">个人主页</a></li>
+	            		<li><a href="#">账户中心</a></li>
+	            		<li><a href="#">我的收藏</a></li>
+	            	</ul>
+            	</li>
+            	<li><a href="#"><span class="glyphicon glyphicon-home"></span>&nbsp&nbsp退出</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2">
+					<div class="list-group">
+						<a href="top10.html" class="list-group-item active">top10发布</a>
+					</div>
+				</div>
+				<div class="col-md-10">
+					<div class="page-header">
+						<h1>TOP10更新</h1>
+					</div>
+					<ul class="nav nav-tabs">
+						<li class="active">
+							<a href="top10.html">TOP10更新</a>
+						</li>
+					</ul>
+					<form action="#" class="mar_t15">
+						<div class="form-group">
+							<label for="title">社团名称</label>
+							<input type="text" id="title" class="form-control">
+						</div>
+						<div class="form-group">
+							<label for="titleno">社团名次</label>
+							<input type="text" id="titleno" class="form-control">
+						</div>
+						<div class="form-group">
+							<label for="titlesub">社团简介</label>
+							<textarea id="titlesub" class="form-control" rows="15" cols="10" placeholder="请输入社团简介"></textarea>
+						</div>
+						<button type="submit" class="btn btn-default pull-right">提交</button>
+					</form>
+				</div>
+			</div>
+		</div>
+
+
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h6>版权所有</h6>
+						<h6>如有需要，请联系版主</h6>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+		<script type="application/javascript" src="js/jquery.min.js"></script>
+		<script type="application/javascript" src="js/bootstrap.min.js"></script>
+	</body>
+</html>

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>后台管理系统</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.min.css"/>
+    	<link rel="stylesheet" href="css/bootstrap-manage.css"/>
+    	<link rel="stylesheet" href="css/animate.css"/>
+	</head>
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+        <!--小屏幕导航按钮-->
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+        <a href="index.html" class="navbar-brand">后台管理系统</a>
+        </div>
+        <!--导航-->
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span>&nbsp&nbsp首页</a></li>
+                <li><a href="activity.html"><span class="glyphicon glyphicon-star"></span>&nbsp&nbsp青盟活动</a></li>
+                <li><a href="orgzations.html"><span class="glyphicon glyphicon-user"></span>&nbsp&nbsp社团招标</a></li>
+                <li><a href="manage.html"><span class="glyphicon glyphicon-th-large"></span>&nbsp&nbsp投标管理</a></li>
+                <li><a href="top10.html"><span class="glyphicon glyphicon-th"></span>&nbsp&nbspTOP10管理</a></li>
+                <li><a href="fuli.html"><span class="glyphicon glyphicon-th-list"></span>&nbsp&nbsp公益活动</a></li>
+                <li><a href="zhaobiao.html"><span class="glyphicon glyphicon-file"></span>&nbsp&nbsp招标投标</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+            	<li class="dropdown">
+	            	<a id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		            	管理员
+		            	<span class="caret"></span>
+	            	</a>
+	            	<ul class="dropdown-menu" aria-labelledby="dLabel">
+	            		<li><a href="#">前台首页</a></li>
+	            		<li><a href="#">个人设置</a></li>
+	            		<li><a href="#">个人主页</a></li>
+	            		<li><a href="#">账户中心</a></li>
+	            		<li><a href="#">我的收藏</a></li>
+	            	</ul>
+            	</li>
+            	<li><a href="#"><span class="glyphicon glyphicon-home"></span>&nbsp&nbsp退出</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="alert alert-danger alert-dismissible fade in" role="alert">
+		        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+		        <h4>存在漏洞，请修复</h4>
+		        <p>当前版本存在严重漏洞，容易造成攻击，请即可修复！</p>
+		        <p>
+		        <button type="button" class="btn btn-danger">立即修复</button>
+		        <button type="button" class="btn btn-default" data-dismiss="alert">稍后处理</button>
+		      </p>
+		      </div>
+    		</div>
+    		<div class="col-md-6">
+    			<div class="panel panel-default">
+  				<div class="panel-heading">网站数据统计</div>
+  				<div class="panel-body">
+  					<table class="table table-hover">
+   					<thead>
+   						<tr>
+   							<th>统计项目</th>
+   							<th>今日</th>
+   							<th>昨日</th>
+   						</tr>
+   					</thead>
+   					<tbody>
+   						<tr>
+   							<th scope="row">注册会员</th>
+   							<td>200</td>
+   							<td>400</td>
+   						</tr>
+   						<tr>
+   							<th scope="row">登陆会员</th>
+   							<td>4100</td>
+   							<td>5112</td>
+   						</tr>
+   						<tr>
+   							<th scope="row">今日发帖</th>
+   							<td>1540</td>
+   							<td>4511</td>
+   						</tr>
+   						<tr>
+   							<th scope="row">推荐人数</th>
+   							<td>1500</td>
+   							<td>400</td>
+   						</tr>
+   					</tbody>
+   					</table>
+				  </div>
+				</div>
+    		</div>
+    		<div class="col-md-6">
+    			<div class="panel panel-default">
+  				<div class="panel-heading">热门活动</div>
+  				<div class="panel-body">
+   		 			<ul class="list-group">
+   		 				<li class="list-group-item">
+						    <a href="#"><span class="glyphicon glyphicon-star"></span>这个活动</a>
+					    </li>
+					    <li class="list-group-item">
+						    <a href="#"><span class="glyphicon glyphicon-star"></span>这个活动</a>
+					    </li>
+					    <li class="list-group-item">
+						    <a href="#"><span class="glyphicon glyphicon-star"></span>这个活动</a>
+					    </li>
+					    <li class="list-group-item">
+						    <a href="#"><span class="glyphicon glyphicon-star"></span>这个活动</a>
+					    </li>
+					    <li class="list-group-item">
+						    <a href="#"><span class="glyphicon glyphicon-star"></span>这个活动</a>
+					    </li>
+					    <li class="list-group-item">
+						    <a href="#"><span class="glyphicon glyphicon-star"></span>这个活动</a>
+					    </li>
+   		 			</ul>
+  				</div>
+				</div>
+    		</div>
+    	</div>
+	</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="panel panel-default">
+						<div class="panel-heading">团队留言板</div>
+						<div class="panel-body">
+							<div class="col-md-7">
+								<div class="media well">
+									<div class="media-left">
+										<a href="#">
+											<img class="media-object wh64" src="img/pictures_01.jpg" alt="需求小哥">
+										</a>
+									</div>
+									<div class="media-body">
+										<h4 class="media-heading">需求小哥</h4>
+										技术大哥，今晚把网站系统升级一下哈，现在系统有漏洞，安全起见！
+									</div>
+								</div>
+								<div class="media well">
+									<div class="media-body text-right">
+										<h4 class="media-heading">技术大哥</h4>
+										收到，今天晚上两点准时升级！
+									</div>
+									<div class="media-right">
+										<a href="#">
+											<img class="media-object wh64" src="img/pictures_02.jpg" alt="技术大哥">
+										</a>
+									</div>
+								</div>
+								<div class="media well">
+									<div class="media-body text-right">
+										<h4 class="media-heading">技术大哥</h4>
+										你先在站点发布一下通知哈！
+									</div>
+									<div class="media-right">
+										<a href="#">
+											<img class="media-object wh64" src="img/pictures_02.jpg" alt="技术大哥">
+										</a>
+									</div>
+								</div>
+								<div class="media well">
+									<div class="media-left">
+										<a href="#">
+											<img class="media-object wh64" src="img/pictures_01.jpg" alt="需求小哥">
+										</a>
+									</div>
+									<div class="media-body">
+										<h4 class="media-heading">需求小哥</h4>
+										好嘞！
+									</div>
+								</div>
+							</div>
+							<div class="col-md-5">
+								<form action="#">
+									<div class="form-group">
+										<label for="text1">请输入留言内容</label>
+										<textarea class="form-control" id="text1" rows="5" cols="10" placeholder="请输入留言内容"></textarea>
+										<button type="submit" class="btn byn-default mar_t15">留言</button>
+									</div>
+								</form>
+								<div class="panel panel-default">
+									<div class="panel-heading">团队联系手册</div>
+									<div class="panel-body">
+										<ul class="list-group">
+											<li class="list-group-item">
+												站长:&nbsp<span class="glyphicon glyphicon-phone"> </span>188888888888
+											</li>
+											<li class="list-group-item">
+												站长:&nbsp<span class="glyphicon glyphicon-phone"></span> 188888888888
+											</li>
+											<li class="list-group-item">
+												站长:&nbsp<span class="glyphicon glyphicon-phone"> </span>188888888888
+											</li>
+											<li class="list-group-item">
+												站长: &nbsp<span class="glyphicon glyphicon-phone"></span>188888888888
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h6 style="text-align: center">版权所有</h6>
+						<h6 style="text-align: center">如有需要，请联系版主</h6>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script type="application/javascript" src="js/jquery.min.js"></script>
+		<script type="application/javascript" src="js/bootstrap.min.js"></script>
+	</body>
+</html>

@@ -1,0 +1,359 @@
+body{
+	color: #fff;
+	font-family: "幼圆";
+	background: #cbe2d3;
+}
+.rowback{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/*first*/
+#first{
+	background: url(../images/zhi.jpg) no-repeat;
+	height: 680px;
+	position: relative;
+}
+.top{
+		width: 100%;
+		height: 40px;
+		background: rgba(0,0,0,0.1);
+		border:none;
+	}
+
+	.navbar-default{
+		background: rgba(142,198,173,0.6);
+		border: none;
+		box-shadow: 0px 2px 8px 0px rgba(50,50,50,0.25); 
+	}
+	.navbar-default .navbar-nav{
+		padding-right: 10%;
+	}
+	.navbar-default .navbar-nav li a{
+		color: #fff;
+		font-family: "幼圆";
+		font-size: 1.2em;
+	}
+
+	.img1{
+		width: 80%;
+		margin-top: 14%;
+		padding-left: 8%;
+	}
+	.img2{
+		width: 90%;
+		margin-top: 32%;
+		padding-right: 20%;
+	}
+	.back{
+	border-left:1px solid #fff;
+	}
+	.skew{
+		padding-top: 200px;
+	}
+	.skew .side{
+		width: 100%;
+		height: 18px;
+		background: rgba(151,183,155,0.5);
+	}
+	.home{
+		width: 100%;
+		height: 43px;
+		background: rgba(151,183,155,0.5);
+		-webkit-transform: skew(45deg);
+		-ms-transform: skew(45deg);
+		-o-transform: skew(45deg);
+		transform: skew(45deg);
+		margin-top: -20px;
+	}
+	.home h1{
+		-webkit-transform: skew(-45deg);
+		-ms-transform: skew(-45deg);
+		-o-transform: skew(-45deg);
+		transform: skew(-45deg);
+		padding-left: 54%;
+		font-size: 1.1em;
+		font-family:"Comic Sans MS", cursive;
+		line-height: 43px;
+	}
+	.shou{
+		width: 100%;
+		height: 43px;
+		background: rgba(153,196,156,0.7);
+		-webkit-transform: skew(45deg);
+		-ms-transform: skew(45deg);
+		-o-transform: skew(45deg);
+		transform: skew(45deg);
+		margin-left: -30px;
+	}
+.shou .shou_zi{
+		width: 70%;
+		height: 43px;
+		margin: 0 auto;
+		background: rgba(153,196,156,0.1);
+		-webkit-transform: skew(-45deg);
+		-ms-transform: skew(-45deg);
+		-o-transform: skew(-45deg);
+		transform: skew(-45deg);
+		text-align: center;
+	}
+.shou .shou_zi a{
+		color: #fff;
+		font-family: "幼圆";
+		font-size: 1.7em;
+		line-height: 43px;
+		text-align: center;
+		text-decoration: none;
+	}
+	.skew_she,.skew_act,.skew_gongyi{
+		width: 100%;
+		height: 27px;
+		margin-top: 10px;
+		-webkit-transform: skew(-50deg);
+		-ms-transform: skew(-50deg);
+		-o-transform: skew(-50deg);
+		transform: skew(-50deg);
+	} 
+	.skew_she,.skew_gongyi{
+		background: rgba(153,196,141,0.6);
+	}
+	.skew_act{
+		background: rgba(151,183,155,0.4);
+	}
+.skew_she .she_zi,.skew_act .act_zi,.skew_gongyi .gongyi_zi{
+	width: 70%;
+	height: 27px;
+	margin: 0 auto;
+	text-align: center;
+	-webkit-transform: skew(50deg);
+	-ms-transform: skew(50deg);
+	-o-transform: skew(50deg);
+	transform: skew(50deg);
+}
+.skew_she .she_zi,.skew_gongyi .gongyi_zi{
+	background: rgba(153,196,141,0.1);
+}
+.skew_act .act_zi{
+	background: rgba(151,183,155,0.1);
+}
+.skew_she .she_zi a,.skew_act .act_zi a,.skew_gongyi .gongyi_zi a{
+	color: #fff;
+	font-family: "幼圆";
+	font-size: 1.4em;
+	text-decoration: none;
+}
+.form_se{
+		width: 100%;
+		margin-top: 74%;
+	}
+.js-address-search{
+	-webkit-border-radius:13px 0 0 13px;
+	-moz-border-radius:13px 0 0 13px;
+	-ms-border-radius:13px 0 0 13px;
+	border-radius:13px 0 0 13px;
+}
+.btn_zi{
+	background:rgba(102,139,153,0.6);
+	width:260%;
+	margin-left:1%;
+	-webkit-border-radius:10px 14px 14px 10px;
+	-moz-border-radius:10px 14px 14px 10px;
+	-ms-border-radius:10px 14px 14px 10px;
+	border-radius:10px 14px 14px 10px;
+	color:#fff;
+}
+#first_down{
+	position: absolute;
+	bottom: -25%;
+	left: 40%;
+	height: 27px;
+	width: 16%;
+}
+#st-control{
+	position: absolute;
+	bottom: -25%;
+	left: 40%;
+}
+/*section2*/
+#tell { width:140px;
+		height:300px;
+		background:#96C;
+		position:absolute;
+		top:820px;
+		left:-140px;
+		z-index: 2;
+}
+ #tell span { width:40px;
+			height:100px;
+			background:rgb(112,183,139);
+			line-height:20px;
+			padding: 18px 0;
+			border-radius:0px 7px 7px 0px;
+			text-align:center;
+			font-size:1.2em;
+			color: #fff;
+			font-family: "幼圆";
+			position:absolute;
+			top:110px;
+			right: -40px;
+			z-index: 2;
+}
+
+/*图片轮播*/
+#box{position:relative;
+	width:100%;height:292px;
+	margin:0 auto 0;
+}
+#box ul{position:relative;
+	width:100%;height:292px;
+}
+#box li{position:absolute;
+	list-style:none;background:#cbe2d3;
+	width:0;height:0;top:146px;left:377px;
+	z-index:0;cursor:pointer;
+	overflow:hidden;border-radius:3px;
+}
+#box li img{width:100%;vertical-align:top;}
+#box .prev, #box .next{position:absolute;
+	top:50%;width:35px;height:70px;
+	margin-top:-40px;
+	overflow:hidden;
+	text-indent:-999px;
+	cursor:pointer;
+	background:url(../images/btn.png) no-repeat;
+}
+#box .prev{left:-60px;}
+#box .next{right:-125px;background-position:-39px 0;}
+
+
+
+/*photo*/
+#photo{
+	width: 100%;
+	height: 600px;
+	background: url(../images/xin2.jpg) no-repeat;
+	margin: 20px;
+}
+.msg{
+	width: 100%;
+	height: 510px;
+	margin-top: 50px;
+	background: rgba(0,0,0,0.2);
+	position: relative;
+}
+#photo .img3{
+	position: absolute;
+	left: 21%;
+	top: 6%;
+}
+#photo .img4{
+	position: absolute;
+	left: 61%;
+	top: 6%;
+}
+#photo .img5{
+	position: absolute;
+	left: 14%;
+	top: 22%;
+}
+#photo .img6{
+	position: absolute;
+	left: 70%;
+	top: 22%;
+}
+#photo .img7{
+	position: absolute;
+	left: 30%;
+	top: 22%;
+}
+#photo .img8{
+	position: absolute;
+	left: 7%;
+	top: 38%;
+}
+#photo .img9{
+	position: absolute;
+	left: 70%;
+	top: 35%;
+}
+#photo .img10{
+	position: absolute;
+	left: 19%;
+	top: 61%;
+}
+#photo .img11{
+	position: absolute;
+	left: 49%;
+	top: 61%;
+}
+#photo .img12{
+	position: absolute;
+	left: 41%;
+	top: 86%;
+}
+
+.side2{
+	width: 100%;
+	height: 570px;
+	margin-top: 50px;
+	position: relative;
+}
+.side2 .img13{
+	position: absolute;
+	left: 35%;
+	top: 0;
+}
+.side2 .img14{
+	position: absolute;
+	left: 37%;
+	top: 91.5%;
+}
+/*拍卖*/
+#pai{
+	background: #a6c7b6;
+	width: 100%;
+	margin-bottom: 50px;
+}
+#pai .left{
+	position: relative;
+	width: 100%;
+	border-right: 3px solid #fff;
+}
+#pai .left .tit .img15{
+	width: 40%;
+	padding-top: 12%;
+	margin-left: 15%;
+}
+#pai .right .img16{
+	width: 55%;
+	padding-top: 12%;
+	margin-left: 30%;
+}
+.img17{
+	width: 40%;
+	float: left;
+}
+.font01{
+	font-family: "幼圆";
+	font-size: 1.4em;
+	color: #666;
+	text-align: center;
+}
+#btn1{
+	margin-left: 22%;
+}
+
+#img50,#img51{
+	position: absolute;
+	left: 42%;
+	top: 94%;
+}
+#add,#add2{
+	display: none;
+}
+#corpo .bg{
+	background: url(../images/bg.gif);
+	width: 100%;
+	height: 300px;
+	margin-bottom: 50px;
+}

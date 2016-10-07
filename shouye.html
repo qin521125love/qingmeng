@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>青盟首页</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  
+</head>
+<body>
+<div id="tell">
+  <span>戳<br/>我<br/>哟</span>
+</div>
+
+	<!--导航条的实现   -->
+   
+	<nav class="navbar navbar-default navbar-fixed-top topcol " role="navigation">
+      <div class="container">
+      	<div class="navbar-header">
+        <!--collapse代表折叠 导航可折叠  -->
+           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#demo-navbar">
+           <span class="sr-only">Toggle navigation</span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           </button>
+           <a class="navbar-brand" href="#">青盟欢迎你</a>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="demo-navbar">
+          <ul class="nav navbar-nav">
+          	<li><a href="activity.html" target="_blank">招标投标</a></li>
+            <li><a href="#">社团活动</a></li>
+            <li><a href="zhiyuan.html" target="_blank">公益之家</a></li>
+          </ul>
+          <form class="navbar-form navbar-right" role="search">
+          <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+          <a href="denglu.html" target="_blank" type="button" class="btn btn-primary">登录</a>
+          <a href="zhuce.html" target="_blank" type="button" class="btn btn-success">注册</a>
+       </form>
+        </div>
+      </div>
+    </nav>
+
+    <!--轮播的实现 Carousel  --> 
+     <div class="container">
+   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+   <!--轮播小圈  -->
+     <ol class="carousel-indicators">
+       <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+       <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+       <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+     </ol>
+     <!--轮播项目  -->
+     <div class="carousel-inner" role="listbox">
+     	<div class="item active">
+          <img src="images/658_01.gif" alt="1">
+          <div class="carousel-caption">
+            <h1>社团招商</h1>
+            <p>欢迎各大高校各社团来青盟投标，为社团争取赞助。。。。。。。。。。。</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/658_02.gif" alt="2">
+          <div class="carousel-caption">
+            <h1>精彩视窗</h1>
+            <p>社团优秀活动剪辑，等你来欣赏，等你来加入！</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/2358.jpg" alt="3">
+          <div class="carousel-caption">
+          	<h1>社团大赛</h1>
+            <p>我赞助，你策划，#########欢迎大家踊跃报名参赛。</p>
+          </div>
+        </div>
+     </div>
+     <!--左右控制箭头 -->
+     <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+     <span class="glyphicon glyphicon-chevron-left"></span>
+     <span class="sr-only">Previous</span>
+     </a>
+     <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+     <span class="glyphicon glyphicon-chevron-right"></span>
+     <span class="sr-only">Next</span>
+     </a>
+   </div>
+   </div>
+   <!--三格系统 --> 
+  <hr class="divider">  
+ <div class="container">
+ 	<div class="row three">
+     <div class="col-md-4">
+       <div class="lunar">
+         
+       </div>
+     </div>
+     <div class="col-md-4 bi">
+     	 <ul class="nav nav-tabs nav-justified" role="tablist" id="tab-list1">
+           <li class="active"><a href="#tab-com" role="tab" data-toggle="tab">社团活动</a></li>
+	       <li><a href="#tab-zhi" role="tab" data-toggle="tab">志愿活动</a></li>
+        </ul>
+        <div class="tab-content">
+ 			<div class="tab-pane fade in active feature" id="tab-com">    		
+            	<ul class="com">
+        			<li><a href="#">aaaaaaa&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  2015.09.10</a></li>
+        			<li><a href="#">sssssss&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  2015.09.10</a></li>                    
+        			<li><a href="#">xxxxxxx&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   2015.9.10</a></li>
+        			<li><a href="#">ccccccc&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   2015.9.10</a></li>
+        			<li><a href="#">retruet&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   2015.9.10</a></li>
+              <li><a href="#">ccccccc&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   2015.9.10</a></li>
+        			<li><a href="#">retruet&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   2015.9.10</a></li>
+        		</ul> 
+    		</div>
+            <div class="tab-pane fade feature" id="tab-zhi">
+            	<ul class="com">
+        			<li><a href="#">ggggggg&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  2015.09.10</a></li>
+        			<li><a href="#">yyyyyyy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    2015.09.10</a></li>                    
+        			<li><a href="#">nnnnnnn&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    2015.09.10</a></li>
+        			<li><a href="#">cccccccc&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    2015.09.10</a></li>
+        			<li><a href="#">retruet&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    2015.09.10</a></li>
+                    <li><a href="#">cccccccc&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    2015.09.10</a></li>
+        			<li><a href="#">retruet&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    2015.09.10</a></li>
+        		</ul>                       	
+    		</div>
+            </div>
+     </div>
+     <!--TOP 10待做-->
+     <div class="col-md-4">
+     	<div class="ten">
+        
+        </div>
+        
+     </div>
+     </div>
+     <hr class="divider">
+      <!--招标及投标-->
+   <div class="row">
+            <div class="col-md-2">
+              <div class="zhao_yao">
+              
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="time">
+                
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="tou_yao">
+                
+              </div>
+            </div>
+       </div>
+       <hr class="divider">
+    <!--视频及青盟介绍-->
+  
+     <div class="row">
+      <div class="col-md-6">
+	 	 <div class="view">
+            	
+         </div>
+       </div>
+        <div class="col-md-6">
+        	<div class="introduce">
+             <p class="font03">青盟介绍</p>
+            </div>
+        </div>
+      </div>
+   
+  </div>
+   <!--页脚-->
+   
+    <footer>
+	<div class="row foot">
+    	<div class="col-md-6">
+        	<p class="font04">合作机构</p>
+          <div class="corp">
+          
+          </div>
+          <div class="corp2">
+          
+          </div>
+        </div>
+        <div class="col-md-6">
+        <p class="font04">联系我们</p>
+         <p class="font05">TEL:8888888</p>
+        </div>
+    </div>
+ </footer>
+ 
+
+<script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/shouye.js"></script>
+</body>
+</html>

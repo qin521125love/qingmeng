@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>后台管理系统</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/bootstrap-manage.css"/>
+	<link rel="stylesheet" href="css/animate.css"/>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<!--小屏幕导航按钮-->
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+
+			<a href="index.html" class="navbar-brand">后台管理系统</a>
+		</div>
+		<!--导航-->
+		<div class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+				<li><a href="index.html"><span class="glyphicon glyphicon-home"></span>&nbsp&nbsp首页</a></li>
+				<li><a href="activity.html"><span class="glyphicon glyphicon-star"></span>&nbsp&nbsp青盟活动</a></li>
+				<li><a href="orgzations.html"><span class="glyphicon glyphicon-user"></span>&nbsp&nbsp社团招标</a></li>
+				<li class="active"><a href="manage.html"><span class="glyphicon glyphicon-th-large"></span>&nbsp&nbsp投标管理</a></li>
+				<li><a href="top10.html"><span class="glyphicon glyphicon-th"></span>&nbsp&nbspTOP10管理</a></li>
+				<li><a href="fuli.html"><span class="glyphicon glyphicon-th-list"></span>&nbsp&nbsp公益活动</a></li>
+				<li><a href="zhaobiao.html"><span class="glyphicon glyphicon-file"></span>&nbsp&nbsp招标投标</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown">
+					<a id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						管理员
+						<span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="dLabel">
+						<li><a href="#">前台首页</a></li>
+						<li><a href="#">个人设置</a></li>
+						<li><a href="#">个人主页</a></li>
+						<li><a href="#">账户中心</a></li>
+						<li><a href="#">我的收藏</a></li>
+					</ul>
+				</li>
+				<li><a href="#"><span class="glyphicon glyphicon-home"></span>&nbsp&nbsp退出</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class="container">
+	<div class="row">
+		<div class="col-md-2">
+			<div class="list-group">
+				<a href="manage.html" class="list-group-item active">投标企业</a>
+				<a href="" role="button" data-toggle="modal" data-target="#myModal" class="list-group-item">企业添加</a>
+			</div>
+		</div>
+		<div class="col-md-10">
+			<div class="page-header">
+				<h1>投标企业</h1>
+			</div>
+			<ul class="nav nav-tabs">
+				<li class="active">
+					<a href="manage.html">企业列表</a>
+				</li>
+				<li>
+					<a href="mana-search.html">企业搜索</a>
+				</li>
+				<li>
+					<a href="" role="button" data-toggle="modal" data-target="#myModal">企业添加</a>
+				</li>
+			</ul>
+			<table class="table activity">
+				<thead>
+				<tr>
+					<th>编号</th>
+					<th>企业名称</th>
+					<th>企业法人</th>
+					<th>企业邮箱</th>
+					<th>操作</th>
+				</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<th scope="row">1</th>
+					<td>青曲社</td>
+					<td>张三</td>
+					<td>123455@qq.com</td>
+					<td><div role="presentation" class="dropdown">
+						<button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+							操作 <span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li><a href="#">编辑</a></li>
+							<li><a href="#">删除</a></li>
+							<li><a href="#">锁定</a></li>
+							<li><a href="#">修改密码</a></li>
+						</ul>
+					</div></td>
+				</tr>
+				<tr>
+					<th scope="row">1</th>
+					<td>青曲社</td>
+					<td>张三</td>
+					<td>123455@qq.com</td>
+					<td><div role="presentation" class="dropdown">
+						<button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+							操作 <span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li><a href="#">编辑</a></li>
+							<li><a href="#">删除</a></li>
+							<li><a href="#">锁定</a></li>
+							<li><a href="#">修改密码</a></li>
+						</ul>
+					</div></td>
+				</tr>
+				<tr>
+					<th scope="row">1</th>
+					<td>青曲社</td>
+					<td>张三</td>
+					<td>123455@qq.com</td>
+					<td><div role="presentation" class="dropdown">
+						<button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+							操作 <span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li><a href="#">编辑</a></li>
+							<li><a href="#">删除</a></li>
+							<li><a href="#">锁定</a></li>
+							<li><a href="#">修改密码</a></li>
+						</ul>
+					</div></td>
+				</tr>
+				<tr>
+					<th scope="row">1</th>
+					<td>青曲社</td>
+					<td>张三</td>
+					<td>123455@qq.com</td>
+					<td><div role="presentation" class="dropdown">
+						<button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+							操作 <span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li><a href="#">编辑</a></li>
+							<li><a href="#">删除</a></li>
+							<li><a href="#">锁定</a></li>
+							<li><a href="#">修改密码</a></li>
+						</ul>
+					</div></td>
+				</tr>
+				<tr>
+					<th scope="row">1</th>
+					<td>青曲社</td>
+					<td>张三</td>
+					<td>123455@qq.com</td>
+					<td><div role="presentation" class="dropdown">
+						<button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+							操作 <span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li><a href="#">编辑</a></li>
+							<li><a href="#">删除</a></li>
+							<li><a href="#">锁定</a></li>
+							<li><a href="#">修改密码</a></li>
+						</ul>
+					</div></td>
+				</tr>
+				<tr>
+					<th scope="row">1</th>
+					<td>青曲社</td>
+					<td>张三</td>
+					<td>123455@qq.com</td>
+					<td><div role="presentation" class="dropdown">
+						<button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+							操作 <span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li><a href="#">编辑</a></li>
+							<li><a href="#">删除</a></li>
+							<li><a href="#">锁定</a></li>
+							<li><a href="#">修改密码</a></li>
+						</ul>
+					</div></td>
+				</tr>
+				<tr>
+					<th scope="row">1</th>
+					<td>青曲社</td>
+					<td>张三</td>
+					<td>123455@qq.com</td>
+					<td><div role="presentation" class="dropdown">
+						<button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+							操作 <span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li><a href="#">编辑</a></li>
+							<li><a href="#">删除</a></li>
+							<li><a href="#">锁定</a></li>
+							<li><a href="#">修改密码</a></li>
+						</ul>
+					</div></td>
+				</tr>
+				<tr>
+					<th scope="row">1</th>
+					<td>青曲社</td>
+					<td>张三</td>
+					<td>123455@qq.com</td>
+					<td><div role="presentation" class="dropdown">
+						<button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+							操作 <span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li><a href="#">编辑</a></li>
+							<li><a href="#">删除</a></li>
+							<li><a href="#">锁定</a></li>
+							<li><a href="#">修改密码</a></li>
+						</ul>
+					</div></td>
+				</tr>
+				<tr>
+					<th scope="row">1</th>
+					<td>青曲社</td>
+					<td>张三</td>
+					<td>123455@qq.com</td>
+					<td><div role="presentation" class="dropdown">
+						<button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+							操作 <span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li><a href="#">编辑</a></li>
+							<li><a href="#">删除</a></li>
+							<li><a href="#">锁定</a></li>
+							<li><a href="#">修改密码</a></li>
+						</ul>
+					</div></td>
+				</tr>
+				</tbody>
+			</table>
+			<nav class="pull-right">
+				<ul class="pagination">
+					<li>
+						<a href="#" aria-label="Previous">
+							<span aria-hidden="true">&laquo;</span>
+						</a>
+					</li>
+					<li class="active"><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+					<li>
+						<a href="#" aria-label="Next">
+							<span aria-hidden="true">&raquo;</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">企业添加</h4>
+			</div>
+			<div class="modal-body">
+				<form action="#">
+					<div class="form-group">
+						<label for="addname">企业名称</label>
+						<input type="text" id="addname" class="form-control" placeholder="企业名称">
+					</div>
+					<div class="form-group">
+						<label for="addpassword">请输入企业法人</label>
+						<input type="text" id="addpassword" class="form-control" placeholder="请输入企业法人">
+					</div>
+					<div class="form-group">
+						<label for="addemail">请输入企业邮箱</label>
+						<input type="text" id="addemail" class="form-control" placeholder="请输入企业邮箱">
+					</div>
+					<div class="form-group">
+						<label for="yonghuzu">用户组</label>
+						<select id="yonghuzu" class="form-control">
+							<option>限制会员</option>
+							<option>新手上路</option>
+							<option>注册会员</option>
+							<option>中级会员</option>
+							<option>高级会员</option>
+						</select>
+					</div>
+				</form>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+				<button type="button" class="btn btn-primary">提交</button>
+			</div>
+		</div>
+	</div>
+</div>
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h6>版权所有</h6>
+				<h6>如有需要，请联系版主</h6>
+			</div>
+		</div>
+	</div>
+</footer>
+<script type="application/javascript" src="js/jquery.min.js"></script>
+<script type="application/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,332 @@
+body{
+	font-family:"幼圆";
+	color:#fff;
+	-webkit-font-smoothing:antialiased;
+}
+	.rowback{
+	padding:0;
+	margin:0;
+	border:0;
+}
+	.bac{
+		height: 300px;
+		background: url(../images/bac.jpg) no-repeat;
+	}
+	.top{
+		width: 100%;
+		height: 40px;
+		background: rgba(0,0,0,0.1);
+		border:none;
+	}
+
+	.navbar-default{
+		background: rgba(180,180,180,0.5);
+		border: none;
+		box-shadow: 0px 2px 8px 0px rgba(50,50,50,0.25); 
+	}
+	.navbar-default .navbar-nav{
+		padding-right: 10%;
+	}
+	.navbar-default .navbar-nav li a{
+		color: #fff;
+		font-family: "幼圆";
+		font-size: 1.2em;
+	}
+	
+	.img1{
+		width: 80%;
+		margin-top: 14%;
+		padding-left: 8%;
+	}
+	.img2{
+		width: 90%;
+		margin-top: 32%;
+		padding-right: 20%;
+	}
+	.back{
+	border-left:1px solid #fff;
+	}
+	.bott{
+		margin-top: 265px;
+	}
+	.btn_zi{
+	background:rgba(102,139,153,0.6);
+	width:260%;
+	margin-left:1%;
+	-webkit-border-radius:10px 14px 14px 10px;
+	-moz-border-radius:10px 14px 14px 10px;
+	-ms-border-radius:10px 14px 14px 10px;
+	border-radius:10px 14px 14px 10px;
+	color:#fff;
+	
+}
+	.form_se{
+		width: 100%;
+		margin-left: -6.5%;
+	}
+	.js-address-search{
+	-webkit-border-radius:13px 0 0 13px;
+	-moz-border-radius:13px 0 0 13px;
+	-ms-border-radius:13px 0 0 13px;
+	border-radius:13px 0 0 13px;
+}
+	.first{
+	background:rgba(102,139,153,0.8);
+	height:30px;
+	width: 80%;
+	position: absolute;
+	right: 0;
+	-webkit-border-radius:14px 0 0 14px;
+	-moz-border-radius:14px 0 0 14px;
+	-ms-border-radius:14px 0 0 14px;
+	border-radius:14px 0 0 14px;
+	
+}
+.first h4{
+	font-family:"幼圆";
+	font-size:1.2em;
+	line-height:10px;
+	color:#fff;
+	height:40px;
+	text-align:center;
+}
+	.she{
+		width: 100%;
+		height: 80px;
+		background: #88a4af;
+		margin-left: -9%;
+		position: relative;
+	}
+	.she a{
+		font-family: "幼圆";
+		font-size: 1.5em;
+		color: #fff;
+		text-decoration: none;
+		position: absolute;
+		top: 23px;
+		left: 20%;
+	}
+	.activity,.gongyi{
+		width: 100%;
+		height: 40px;
+		background: #88a4af;
+	}
+	.activity a,.gongyi a{
+		text-decoration: none;
+		color: #fff;
+		font-family: "幼圆";
+		font-size: 1.3em;
+	}
+	.activity a{
+		position: absolute;
+		top: 7px;
+		left: 32%;
+	}
+	.gongyi a{
+		position: absolute;
+		top: 7px;
+		left: 20%;
+	}
+	/*招投标信息*/
+	.message{
+		width: 100%;
+		height: 550px;
+		background: url(../images/11.jpg);
+		margin-top: 10px;
+		position: relative;
+	}
+	.box{
+		width: 80%;
+		height: 360px;
+		border:1px solid;
+		position: absolute;
+		top: 18%;
+		left: 13%;
+	}
+	.message a{
+		text-decoration: none;
+		color: #669999;
+		font-weight: bold;
+		font-family: "幼圆";
+		font-size: 1.1em;
+		position: absolute;
+		left: 12%;
+		bottom: 8%;
+	}
+	.img3{
+		position: absolute;
+		left: 9.8%;
+		bottom: 5%;
+	}
+	.zhao_all,.zhong_all{
+		width: 100%;
+		height: 275px;
+		position: relative;
+	}
+	.zhao_all .zhao_tit{
+		width: 20%;
+		height: 275px;
+		background:url(../images/14.jpg) no-repeat;
+		float: left;
+		margin-top: 10px;
+		position: relative;
+	}
+	.zhao_tit a,.zhong_tit a{
+		color: #fff;
+		font-family: "幼圆";
+		font-size: 1.1em;
+		text-decoration: none;		
+	}
+	.zhao_tit a{
+		position: absolute;
+		bottom: 9%;
+		left: 46%;
+	}
+	.zhong_tit a{
+		position: absolute;
+		bottom: 10%;
+		left: 46%;
+	}
+	.img4,.img5{
+		position: absolute;
+		bottom: 3%;
+		left: 42%;
+	}
+	.zhao_all .zhao_main{
+		width: 80%;
+		height: 275px;
+		margin-top: 10px;
+		float: left;
+		margin-left: -7%;
+		background:url(../images/8.gif);
+	}
+	.mess{
+		margin-top: 30px;
+	}
+	.zhong_tit{
+		width: 20%;
+		height: 245px;
+		float: left;
+		background: url(../images/13.jpg) no-repeat;
+		position: relative;
+	}
+	.zhong_main{
+		width: 80%;
+		height: 245px;
+		margin-left: -7%;
+		float: left;
+		background:url(../images/12.gif);
+	}
+	.zhao_xin,.tou_xin{
+		width: 90%;
+		height: 230px;
+		margin-top: 5px;
+	}
+	/*招标投标流程*/
+	.zhaobiao,.toubiao{
+		width: 60%;
+		height: 40px;
+		margin: 30px 0;
+		border-radius: 20px;
+		margin-left: -10%;
+	}
+	.zhaobiao{
+		background: #c78954;
+	}
+	.toubiao{
+		background: #75a477;
+	}
+	.zhaobiao h3,.toubiao h3{
+		font-family: "幼圆";
+		font-size: 1.5em;
+		text-align: center;
+		padding-top: 7px;
+	}
+	.squre{
+		width: 20%;
+		height: 60px;
+		border-right: 5px solid #9bbcbc;
+		border-top: 5px solid #9bbcbc;
+		position: absolute;
+		top: 43%;
+		right: 30%;
+	}
+	
+	.zhao_progress{
+		width: 20%;
+		height: 230px;
+		float: left;
+		background: url(../images/10.jpg);
+		position: relative;
+	}
+	.zhao_progress a,.tou_progress a{
+		color:#fff;
+		font-family: "幼圆";
+		font-size: 1.01em;
+		position: absolute;
+		left: 62%;
+		bottom: 11%;
+	}
+	.img6,.img7{
+		position: absolute;
+		bottom: 3%;
+		left: 54.5%;
+	}
+	.zhao_cont{
+		width: 80%;
+		height: 230px;
+		background: url(../images/15.gif);
+		float: left;
+	}
+	.tou_progress{
+		width: 20%;
+		height: 230px;
+		background: url(../images/9.jpg);
+		float: left;
+		position: relative;
+	}
+	.tou_cont{
+		width: 80%;
+		height: 230px;
+		background: url(../images/16.gif);
+		float: left;
+	}
+	/* zanzhu */
+	.zanzhu{
+		width: 100%;
+		height: 340px;
+		margin-top: 20px;
+		position: relative;
+		margin-bottom: 30px;
+	}
+	.left{
+		width: 8.8%;
+		height:340px;
+		background: url(../images/17.jpg); 
+		float: left;
+		position: relative;
+	}
+	.left a{
+		color:#fff;
+		font-family: "幼圆";
+		font-size: 1.01em;
+		position: absolute;
+		left: 62%;
+		bottom: 11%;
+	}
+	.img8{
+		position: absolute;
+		bottom: 5%;
+		left: 55%;
+	}
+	.right{
+		width: 86%;
+		height:340px;
+		background: url(../images/18.gif); 
+		float: left;
+	}
+	.foot{
+		width: 100%;
+		height: 150px;
+		background: #c3d7de;
+	}
